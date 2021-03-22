@@ -1,0 +1,160 @@
+:root{
+    --pink:rgb(209, 19, 209);
+    --yellow:rgb(236, 185, 18);
+    --dark-yellow:rgb(245, 204, 68);
+    --purple:rgb(134, 33, 134);
+    --cyan: #79acff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Base*/
+
+main{
+    margin: 0;
+    background: linear-gradient(to right, var(--pink), var(--purple));
+}
+
+header .navbar ul li a{
+    font-family: 'Bebas Neue', cursive;
+    color: var(--yellow);
+    text-decoration: none;
+    margin-left: 3rem;
+    font-size: 2rem;
+}
+
+header .navbar-dark .navbar-nav .nav-link {
+    color: var(--yellow);
+    margin-left: 2rem;
+}
+header .navbar-dark .navbar-nav .nav-link:hover {
+    transition: ease all 0.2s;
+    border-top: 4px solid var(--yellow);
+    color: var(--yellow);
+}
+
+header .navbar-dark .navbar-nav .nav-item .active {
+    color: var(--dark-yellow);
+    font-weight: 750;
+}
+
+.content {
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+
+#logo {
+    margin-top: 2rem;
+    box-shadow: 0 1em 1em var(--yellow);
+    height: 40vh;
+    align-self: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+main section h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3.5rem;
+    color: yellow;
+}
+
+main section h2 {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 1rem;
+    font-size: 2rem;
+    color: var(--cyan);
+} 
+
+main section a #botao{
+    display: block;
+    margin-top: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color: yellow;
+    color: var(--purple);
+    height: 3.5rem;
+    width: 12rem;
+    border-radius: 1rem;
+    border: 1.5px solid var(--dark-yellow);
+}
+
+main section a #botao:hover{
+    transition: all 0.5s ease-out;
+    background-color: var(--purple);
+    color: var(--yellow);
+    border: 2px solid var(--yellow);
+}
+
+.p2{
+    border-top: 3px var(--cyan) solid;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.60)100%), url('/img/maos.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 4rem;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+}
+
+.content-2 h2{
+    font-family: 'Bebas Neue', cursive;
+    color: var(--cyan);
+    align-self: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+.content-2 h3{
+    margin-top: 1rem;
+    color: var(--pink);
+    align-self: center;
+}
+
+#botao2{
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: var(--cyan);
+    color: var(--purple);
+    height: 5rem;
+    width: 15rem;
+    border-radius: 1rem;
+    border: 1.5px solid var(--dark-yellow);
+}
+
+#botao2:hover{
+    transition: all 0.5s ease-out;
+    background-color: var(--purple);
+    color: var(--cyan);
+    border: 2px solid var(--yellow);
+}
+
+main a{
+    text-decoration: none;
+}
+
+footer{
+    background-color: black;
+    color: var(--cyan);
+    font-size: 12px; 
+    bottom: 0; 
+    height: 50px; 
+    padding: 1rem;
+}
